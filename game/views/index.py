@@ -1,4 +1,4 @@
-form django.shortcuts import render
+from django.shortcuts import render
 
 def index(request):
-    return rander(request, "multiends/web.html,")
+    return render(request, "multiends/web.html")
